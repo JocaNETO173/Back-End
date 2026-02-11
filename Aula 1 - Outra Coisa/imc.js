@@ -1,14 +1,14 @@
 const calcular = document.getElementById('calcular');
 function IMC(){
 
-const nome = document.getElementById('nome').value;
-const peso = document.getElementById('peso').value;
-const altura = document.getElementById ('altura').value;
+const lugar = document.getElementById('lugar').value;
+const area = document.getElementById('area').value;
+const habitantes = document.getElementById ('habitantes').value;
 const resultado = document.getElementById('resultado');
 
 
 
-if (nome !=='' && altura !=='' && peso !==''){
+if (lugar !=='' && habitantes !=='' && area !==''){
 
     const valorIMC = (peso/(altura*altura)).toFixed(1);
 
