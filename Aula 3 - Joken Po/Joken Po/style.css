@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+bod
+.container {
+    display: flexbox;
+    height: 100vh
+}

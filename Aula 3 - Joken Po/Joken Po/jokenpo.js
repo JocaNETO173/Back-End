@@ -23,10 +23,19 @@ function jogar(){
         }
         
         if((pedra.checked == true && sorteio == 0 )||(papel.checked == true && sorteio == 1)||(tesoura.checked == true && sorteio == 2)){
-            document.getElementById('placar').innerText="placar: empate";
-        } else {
-            document.getElementById('placar').innerText="placar";
+            document.getElementById('placar').innerHTML="placar: Empate!";
         }
+        else if ((pedra.checked == true && sorteio == 2)||(papel.checked == true && sorteio == 0)||(tesoura.checked == true && sorteio == 1)){
+            document.getElementById('placar').innerHTML="placar: Você Venceu!"
+        } 
+        else {
+            document.getElementById('placar').innerHTML="placar: Computador Venceu!";
+        }
+
     }
 }
 
+function resetar(){
+    document.getElementById('placar').innerHTML="placar";
+    document.getElementById('pc').src="pc.png";
+}
