@@ -1,0 +1,17 @@
+{
+    "name": "Jokenpo",
+    "short_name": "jknp",
+    "start_url": ";/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#ffd359",
+    "icons":[{
+        "src":"gmod192.png",
+        "size":"256x256",
+        "type":"image/png"
+    },{
+        "src":"gmod512.png",
+        "size":"500x500",
+        "type":"image/png"
+    }]
+}
